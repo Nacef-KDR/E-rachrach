@@ -187,7 +187,8 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
         fontSize: 30,
         marginTop:120,
-        marginBottom:20
+        marginBottom:20,
+        marginLeft:8
          
     },
     text_footer: {

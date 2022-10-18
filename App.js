@@ -6,6 +6,7 @@ import SplashScreen from './screens/Splash';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { Profile } from './screens/Profile';
+import { Zone } from './screens/Zone';
 const Stack = createNativeStackNavigator();
 
 export default function App() {
@@ -15,6 +16,7 @@ export default function App() {
       <Stack.Screen name="Splash" component={SplashScreen} />
       <Stack.Screen name="Login" component={Login} />
       <Stack.Screen name="Profile" component={Profile} />
+      <Stack.Screen name="Zone" component={Zone} />
       </Stack.Navigator>
     </NavigationContainer>
     
